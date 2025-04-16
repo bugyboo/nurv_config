@@ -2,9 +2,9 @@
 name = "nurv_config"
 version = "0.1.0"
 edition = "2024"
-description = "A Rust library for managing configuration files in a structured way."
+description = "A Rust library for managing YAML configuration files in a structured way."
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-config = "0.15.11"
+config = { version = "0.15.11", default-features = false, features = ["yaml"] }
 serde = { version = "1.0.219", features = ["derive"] }
