@@ -1,0 +1,7 @@
+app:
+  api_key: "my_api_key"
+  port: 8080
+database:
+  database_name: "my_database"
+  username: "my_username"
+  password: "my_password"  
