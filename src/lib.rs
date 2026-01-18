@@ -30,7 +30,7 @@ mod tests {
     #[test]
     fn it_works() {
 
-        let settings: MySettings = get_configuration().expect("Failed to load config");
+        let settings: MySettings = load_config!();
         assert_eq!(settings.app.api_key, "my_api_key");
         assert_eq!(settings.app.port, 8080);
 
