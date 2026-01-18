@@ -5,6 +5,11 @@ edition = "2024"
 description = "A Rust library for managing YAML configuration files in a structured way."
 license = "MIT OR Apache-2.0"
 authors = ["Yasser Harbi"]
+repository = "https://github.com/bugyboo/nurv_config"
+# optional but strongly recommended:
+keywords = ["config", "app_env", "yaml"]
+categories = ["command-line-utilities", "web-programming"]  # see https://crates.io/categories
+readme = "README.md"
 
 [dependencies]
 config = { version = "0.15.19", default-features = false, features = ["yaml"] }
